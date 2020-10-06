@@ -1,0 +1,406 @@
+
+*{
+	padding:0;
+	margin:0;
+	margin-bottom:1rem;
+}
+body{
+	font-family:sans-serif;
+}
+h1{
+	color:black;
+	font-size:2.25rem;
+	text-align:center;
+	text-transform:uppercase;
+}
+h6{
+	color:#673ab7;
+	font-size:1.5rem;
+	font-weight:500;
+}
+p{
+	color:#000000;
+	line-height:1.6;
+	font-size:1rem;
+	text-align:center;
+	}
+section{
+		padding-top:80px;
+		padding-bottom:50px;
+	}
+i{
+	font-size:2rem;
+	color:orange;
+	}
+.container{
+		width:1100px;
+		margin:auto;
+		overflow:hidden;
+		text-align:center;
+		}
+.col-50{
+		width:50%;
+		float:left;
+		text-align:center;
+}
+		
+.col-33{
+		width:33%;
+		float:left;
+		text-align:center;
+		}
+.col-25{
+		width:25%;
+		float:left;
+		text-align:center;
+	}
+
+ .btn{
+	padding: 10px 25px;
+	background-color:#03a9f4; 
+    border: 0px;
+    border-radius: 25px;
+    font-size:.95rem;
+    text-transform: uppercase;
+	border:0px;
+	border-radius:25px;
+	color:white;;
+}
+.content{
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:10px;
+}
+/*---header part---*/
+header{
+		padding-top:20px;
+		padding-bottom:5px;
+		width:100%;
+		position:fixed;
+		background-color:#00000069;
+		overflow:hidden;
+}
+.Company{
+		padding-left:35px;
+		float:left;
+}
+
+.company img{
+		float:left;
+		display:black;
+}
+.company h2{
+		float:left;
+		color:white;
+		font-size:2rem;
+		text-transform:uppercase;
+		margin:15px;
+}
+/*----menubar start----*/
+
+#main-menu{
+		padding-right:35px;
+		float:right;
+		margin-top:15px;
+}
+#mobile-icon{
+	display:none;
+}
+#main-menu ul{
+		list-style:none;
+}
+#main-menu ul li{
+		float:left;
+		margin:auto 1px;
+}
+#main-menu ul li a{
+		padding:10px 25px;
+		text-transform:uppercase;
+		text-decoration:none;
+		color:white;
+		font-size:.95rem;
+}
+#main-menu ul li a:hover{
+			background-color:black;
+			color:#03a9f4;
+			
+}
+.active a{
+		background-color:black;
+		color:#03a9f4 !important;
+}
+	
+/*---home part---*/
+#home {
+	background-image:url('../images/banar.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-buttom:0px;
+}
+#home.authou-text{
+	text-align:left;
+	margin-top:200px;
+}
+#home p{
+		text-align:left;
+		font-size:1.5rem;
+		color:yellow;
+		text-transform:uppercase;
+}
+#home h2{
+	color:yellow;
+	font-size:2rem;
+	margin-bottom:20px;
+	text-align:left;
+}
+#home h6{
+	font-size:1.5rem;
+	color:white;
+	text-transform:uppercase;
+	text-align:left;
+}
+#home img{
+	width:auto;
+	height:450;
+	float:right;
+}
+/*----About me paart----*/
+#progress .col-33{
+	  margin-top:10px;
+	  margin-bottom:20px;
+}
+#progress h5{
+	text-align:left;
+	color: #676262;
+    text-transform: uppercase;
+}
+.progressbar{
+		height: 10px;
+		width: 100%;
+		background-color:#d6d3d3;
+		border-radius: 5px;
+}	
+.progress-achieve{
+		height:10px;
+		width:100%;
+		background-color:yellow;
+		border-radius: 5px;
+	
+}	
+/*----service part----*/
+#services{
+		background-image:url('../images/service.png');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+}
+#services .content{
+		background-color:#ffffff4f;
+		border-radius:5px;
+		padding:50px;
+}
+#services .content:hover{
+		background-color:#2d2da596;
+		
+}
+#services h3{
+		margin-top:25px;
+		margin-bottom:25px;
+}
+/*----project part----*/
+#project img{
+			height:250pex;
+			width:100%;
+}
+#projects .content{
+		position:relative;
+}
+#projects .overlay{
+		position:absolute;
+		bottom:10px;
+		width:100%;
+		background-color:#03a9f487;
+		left:10px;
+		right:10px;
+		padding:15px;
+		color:white;
+		text-transform:uppercase;
+		display:none;
+}
+#projects .content:hover .overlay{
+		display:block;
+		
+}
+/*----Review part----*/
+#review{
+		background-image:url('../images/review.png');
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:500px;
+		background-attachment:fixed;
+        }
+#review h3{
+	color:white;
+	margin: 30px auto 35px;
+	font-size:3rem;
+}
+#review h5{
+	color:black;
+	font-size:1.25rem;
+}		
+#contact{
+		background-image:url('../images/contact.png');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+        }
+#contact h1{
+	color:white;
+	margin-bottom:30px;
+}	
+#contact form input,#contact form textarea{
+	    width: 100%;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 10px;
+	margin-bottom:15px;
+	border:1px solid white;
+	box-sizing:border-box;
+	border-radius:5px;
+}
+#contact form textarea{
+	height:150px;
+}
+#contact p{
+	color:white;
+	font-size:1rem;
+}
+#address{
+	margin:50px auto 25px;
+}
+/*----footer part----*/
+footer{
+	overflow:hidden;
+	background-color:#8080804f;
+	padding:25px 0;
+}
+#copy-right{
+		float:left;
+		color:garay;
+		margin:10px;
+}
+#social{
+	float:right;
+}
+#social ul{
+	list-style:none;
+}
+#social ul li{
+    float: left;
+    margin: auto 10px;
+    height: 30px;
+    border: 2px solid gray;
+    padding-top: 15px;
+    width: 30px;
+    padding-left: 15px;
+    border-radius: 50px;
+    text-align: -webkit-match-parent;;
+}
+#social ul li:last-child{
+	margin-right:0px;
+}
+#social ul li a i{
+	font-size:1rem;
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	background-color:gray;
+	height:30px;
+	width:30Px;
+	text-align:center;
+	padding-top:10px;
+}
+#upper i{
+	font-size:1rem;
+}
+/*----Device view----*/
+@media(max-width:1100px){
+	.container{
+		width:100%;
+	}
+}
+@media(max-width:576px){
+.col-25,.col-33,.col-50{
+		width:100%;
+	}
+	/*---mainubar part----*/
+	#mobile-icon{
+		display:block;
+		position:absolute;
+		top:25px;
+		right:15px;
+	}
+	.company img{
+		height:60px;
+		width:80px;
+	}
+	#main-menu {
+		width:100%;
+		padding-right:0;
+		margin-top:0;
+	}
+	#main-menu ul li a{
+		display:block;
+	}
+	#main-menu ul li{
+		float:none;
+	}
+	.active a{
+		background-color:#ececec;
+		color:#191919 !important;
+		
+	}
+	/*----Home part----*/
+	#home .col-50{
+		width:50%;
+	}
+	#home img{
+		height:175px;
+	}
+	#home.authou-text{
+	margin-top:25px;
+    }
+	#home p{
+	font-size:.75rem;
+	}
+	#home h6{
+	font-size:.9rem;
+	}
+	#home h2{
+	font-size:1.25rem;
+	margin:10px;
+	}
+	#home .btn{
+	font-size:.75rem;
+	padding:7px 15px;
+	}
+	/*----Review part----*/
+	#Review .col-25{
+		width:50%;
+	}
+	#Review .content{
+		margin-top:30px;
+	}
+	/*----Footer part----*/
+	#copy-right, #social{
+		float:none;
+		text-align:center;
+	}
+	#social ul{
+		margin-left:25px;
+	}
+}
+
+
